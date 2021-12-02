@@ -23,18 +23,18 @@
         <link rel="stylesheet" href="CSS/responsive.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https : ? //fonts.googleapis.com/css2 famille = Raleway: Ital, wght @ 0100; 0200; 0300; 0400; 0500; 0600; 0700; 0,800; 0,900; 1100; 1200; 1300; 1400; 1500; 1600; 1700; 1 800 ; 1 900 & display=swap" rel="stylesheet">
+        <link href="https:?//fonts.googleapis.com/css2famille=Raleway:Ital,wght@0100;0200;0300;0400;0500;0600;0700;0,800;0,900;1100;1200;1300;1400;1500;1600;1700;1800;1900&display=swap" rel="stylesheet">
         <title>Booki</title>
     </head>
 
     <body>
 
         <header>
-            <div class="logo-nav">  
+            <section class="logo-nav">  <!--l'image du logo-->
                 <div class="logo">
                     <a href="#"><img class="img-logo" src="images/logo/Booki@3x.png" alt="logo"/></a>  
                 </div>
-                <nav class="navigation-top"> 
+                <nav class="navigation-top"> <!--les 2 liens de navigation-->
                     <ul class="ul-top">  
                         <li>
                             <a href="index.html#anchor_home" class="list-top homes-styles" title="Cliquez">Hébergements</a> 
@@ -44,24 +44,24 @@
                         </li>
                     </ul>
                 </nav>
-            </div>
+            </section>
 
-            <div class="presentation-site">
+            <section class="presentation-site">  <!--texte de présentation-->
                 <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
                    <p>En plein centre ville ou en pleine nature</p>
-            </div>
+            </section>
             
-            <div class="form">
+            <section class="form"> <!--le formulaire-->
                  <form method="get">
                     <i class="fas fa-map-marker-alt"></i>
                     <input type="text" placeholder="Marseille,France" class="country">
                     <button type="submit" class="desktop-search">Rechercher</button> 
                     <button type="submit" class="mobile-search"><i class="fas fa-search"></i></button>  
                 </form>
-            </div>
+            </section>
 
-            <div>
-                <div class="filters">
+            <section>
+                <div class="filters"> <!--les 4 boutons des filtres-->
                     <h3>Filtres</h3>
                     <button class="eco">
                         <i class="fas fa-money-bill-wave"></i>
@@ -80,22 +80,22 @@
                         <span class="black">Animaux autorisés</span>
                     </button>
                 </div>
-                <div class="info">
+                <div class="info">  <!--information-->
                     <i class="fas fa-info"></i><p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
-            </div>
+            </section>
         </header>
 
-        <section class="bloc-accommodations"> 
-            <div class="hotels-marseille">  
-                <h2 id="anchor_home">Hébergements à Marseille</h2>
-                <div class="box-marseille">
+        <section class="bloc-accommodations">  <!--la section Hébergements à Marseille et Les plus populaires-->
+            <div class="hotels-marseille">  <!--la section Hébergements à Marseille-->
+                <h2 id="anchor_home">Hébergements à Marseille</h2>  <!--ancre du lien du menu Hébergements-->
+                <div class="box-marseille">  <!--Les 6 éléments de la section Hébergements à Marseille-->
                     <a href="#" class="hotel">  
                         <img class="image" src="images/hebergements/4_small/marcus.jpg" alt="cannebiere"/>
                         <div class="contenu-hotel">
                             <h3>Auberge La Cannebière</h3>
                             <p>Nuit à partir de <strong>25€</strong></p>
-                            <div class="stars">
+                            <div class="stars"> <!--les 5 icônes étoiles-->
                                 <i class="fas fa-star blue"></i>
                                 <i class="fas fa-star blue"></i>
                                 <i class="fas fa-star blue"></i>
@@ -179,12 +179,12 @@
                 <span class="txt-show"><a href="#">Afficher plus</a></span>
             </div>
 
-            <aside class="hotels-popular">
+            <aside class="hotels-popular">  <!--la section les plus populaires-->
                 <div class="title-popular">
                     <h2>Les plus populaires</h2>
                     <i class="fas fa-chart-line"></i>
                 </div>
-                <div class="box-favorites">
+                <div class="box-favorites">  <!--les 3 éléments de la section Les plus populaires-->
                     <a href="#" class="favorite">
                         <img class="images" src="images/hebergements/4_small/emile.jpg" alt="sun"/>
                         <div class="txt">
@@ -231,14 +231,14 @@
             </aside>
         </section>
 
-        <section class="city-activities">
+        <section class="city-activities">  <!--la section Activités à Marseille-->
             <h2 id="anchor_activities">Activités à Marseille</h2>
-            <div class="places-marseille">
-                <a href="#" class="img-tall"> 
+            <div class="places-marseille">  <!--les 6 éléments de la section-->
+                <a href="#" class="img-tall"> <!--la première grande image-->
                     <img class="img-port" src="images/activites/4_small/reno.jpg" alt="Vieux_Port"/>
                     <h3>Vieux Port</h3>
                 </a>
-                <div class="img-small">
+                <div class="img-small"> <!--les 2 premières petites images-->
                     <a href="#">
                         <img class="img-visit" src="images/activites/4_small/paul.jpg" alt="Pomegues"/>
                         <h3>Fort de Pomègues</h3>
@@ -248,11 +248,11 @@
                         <h3>îles de Fioul</h3>
                     </a>
                 </div>
-                <a href="#" class="img-tall">
+                <a href="#" class="img-tall"> <!--la deuxième grande image-->
                     <img class="img-calanques" src="images/activites/4_small/kilyan.jpg" alt="Calanques"/>
                     <h3>Parc National des Calanques</h3>
                 </a>
-                <div class="img-small">
+                <div class="img-small"> <!--les 2 dernières petites images-->
                     <a href="#">
                         <img class="img-visit next" src="images/activites/4_small/florian.jpg" alt="Notre_Dame"/>
                         <h3>Notre-Dame-de-la-Garde</h3>
@@ -266,10 +266,10 @@
         </section>
 
         <footer>
-            <div class="footer-nav">
+            <div class="footer-nav">  <!--les 3 navigations du footer-->
                 <h3>A propos</h3>
                     <nav>
-                        <ul class="line-space footer-list">
+                        <ul class="line-space footer-list">  <!--les listes de la nav-->
                             <li><a href="#" title="Cliquez">Fonctionnement du site</a></li>
                             <li><a href="#" title="Cliquez">Conditions générales de vente</a></li>
                             <li><a href="#" title="Cliquez">Données et confidentialité</a></li>

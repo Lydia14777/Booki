@@ -12,7 +12,7 @@
         flex: 1;
     }
 
-    /**************** Hébergements à Marseille ****************/
+    /**************** Hébergements à Marseille : 1050px ****************/
     .bloc-accommodations {
         flex-direction: column-reverse;
         flex-wrap: nowrap;
@@ -29,8 +29,7 @@
         width: 100%;
     }
 
-    /**************** Les plus populaires *****************/
-
+    /**************** Les plus populaires : 1050px *****************/
     .hotels-popular {
         margin-left: 0;
         border-radius: 0%;
@@ -40,15 +39,7 @@
 
 @media screen and (max-width: 993px) {
 
-    h2 {
-        font-size: 35px;
-    }
-
-    .blue,.grey {
-        font-size: 23px;
-    }
-
-    /**************** Le header ***************/
+    /**************** Le header : 993px ***************/
     .logo-nav {
         display: flex;
         flex-direction: column;
@@ -64,10 +55,9 @@
     }
 
     .img-logo {
-        width: 100%;
+        width: 40%;
         display: flex;
         justify-content: center;
-        margin-bottom: 30px;
         padding-left: 0;
         padding-right: 0;
     }
@@ -89,7 +79,6 @@
     }
 
     .homes-styles,.act-styles {
-        font-size: 35px;
         border-top: none;
         border-bottom: #f2f2f2 solid 2px;
         font-weight: normal;
@@ -104,91 +93,35 @@
         border-bottom-color: #0065fc;
     }
 
-    /************ Texte de présentation du site ************/
+    /************ Texte de présentation du site : 993px ************/
     .presentation-site {
         padding-top: 20px;
     }
 
-    .presentation-site h1 {
-        font-size: 35px;
-    }
-
-    .presentation-site p {
-        font-size: 30px;
-    }
-
-    /**************** Formulaire ****************/
-
-    .country {
-        font-size: 32px;
-        padding: 25px 0 25px 23px;
-    }
-    
-    .desktop-search {
-        font-size: 30px;
-        padding: 27px 22px 27px 22px;
-    }
-
-    .fas.fa-map-marker-alt { 
-        font-size: 35px;
-        padding: 27px 30px 27px 30px;
-        border-radius: 25px 0 0 25px;
-    }
-
-    .fa-search {
-        font-size: 32px;
-    }
-
-    /******************* Les filtres *******************/
-    
+    /******************* Les filtres : 993px *******************/
     .filters {
         padding-left: 30px;
         padding-right: 30px;
     }
+
     .filters h3 {
-        font-size: 34px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .filters button {
-        font-size: 32px;
-        padding: 0 30px 0 0;
         border-radius: 40px;
         margin-bottom: 20px;
     }
 
-    .fa-heart, .fa-dog {
-        font-size: 30px;
-        padding: 25px;
-    }
-
-    .fa-money-bill-wave {
-        font-size: 32px;
-        padding: 23px 20px 23px 20px;
-    }
-
-    .fa-child {
-        font-size: 32px;
-        padding: 23px 27px 23px 27px;
-        width: 100%;
-    }
-
-    /******************* Information *****************/
-    .info p {
-        font-size: 30px;
-    }
-
+    /******************* Information : 993px *****************/
     .fa-info { 
-        font-size: 20px;
         padding: 10px 16px 10px 16px;
     }
 
-    /*************** Les plus populaires ***************/
+    /*************** Les plus populaires : 993px ***************/
     .hotels-popular {
         padding: 20px 35px 20px 30px;
-    }
-
-    .fas.fa-chart-line { 
-        font-size: 38px;
     }
 
     .favorite {
@@ -207,15 +140,7 @@
         padding-right: 30px;
     }
 
-    .txt h3 {
-        font-size: 30px;
-    }
-
-    .txt p {
-        font-size: 25px;
-    }
-
-    /************** Hébergement à Marseille *************/
+    /************** Hébergement à Marseille : 993px *************/
     .hotels-marseille {
         padding-left: 20px;
         padding-right: 20px;
@@ -230,14 +155,8 @@
     }
     
     .contenu-hotel h3 {
-        font-size: 30px;
         padding-bottom: 10px;
     }
-
-    .contenu-hotel p {
-        font-size: 25px;
-    }
-
     .image {
         height: 200px;
         border-radius: 40px 40px 0 0;
@@ -247,11 +166,7 @@
         padding-bottom: 15px;
     }
 
-    .txt-show a {
-        font-size: 30px;
-    }
-
-    /************** Activités à Marseille *************/
+    /************** Activités à Marseille : 993px *************/
     .city-activities {
         padding-left: 20px;
         padding-right: 20px;
@@ -268,16 +183,11 @@
         flex-wrap: wrap;
     }
 
-    .places-marseille h3 {
-        font-size: 30px;
-    }
-
     .city-activities .img-tall,.img-small {
         width: 100%;
     }
 
     .places-marseille a {
-
         border-radius: 40px;
         margin-right: 0;
         margin-left: 0;
@@ -289,7 +199,7 @@
         max-height: 200px;
     }
 
-    /******************* Le footer *******************/
+    /******************* Le footer : 993px *******************/
     footer {
         margin-top: 20px;
     }
@@ -297,15 +207,6 @@
     .footer-nav {
         width: 100%;
         padding-bottom: 25px;
-    }
-
-    .footer-nav h3 {
-        font-size: 30px;
-    }
-
-    .footer-list li {
-        font-size: 27px;
-        line-height: 55px;
     }
 }
 
@@ -322,70 +223,39 @@
     }
 }
 
-
-@media screen and (max-width: 821px) {
-    
-    body {
-        width: 100%;
-    }
-}
-
-
 @media screen and (max-width: 810px) { 
 
-    /******************** Le header *******************/
-    .img-logo {
-        width: 60%;
-    }
-
-    .homes-styles,.act-styles {
-        font-size: 30px;
-    }
-
-    /**************** Présentation du site**************/
+    /**************** Présentation du site : 810px **************/
     .presentation-site {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        padding-right: 55px;
-        padding-left: 55px;
+        padding-right: 30px;
+        padding-left: 30px;
     }
 
     .presentation-site h1 {
-        font-size: 40px;
         margin-bottom: 0;
     }
-
-    .presentation-site p {
-        font-size: 35px;
-    }
     
-    /******************** Formulaire *******************/
-    .form {
-        padding: 0;
-    }
-
-    form {
-        display: flex;
-        justify-content: center;
-    }
-
+    /******************** Formulaire : 810px *******************/
     .desktop-search {
         display: none;
     }
 
     .mobile-search {
         display: flex;
-        border-radius: 15px;
+        border-radius: 16px;
         margin-left: -11px;
+        font-size: 17px;
     }
 
-    .mobile-search {
-        padding: 28px 30px 28px 30px;
-        border-radius: 25px;
+    /******************* Les filtres : 810px *******************/
+    .filters button {
+        margin-right: 30px;
     }
 
-    /******************* Information ******************/
+    /******************* Information : 810px ******************/
     .info {
         padding-left: 45px;
         padding-right: 45px;
@@ -395,63 +265,17 @@
         margin-right: 10px;
     }
 
-    .info p {
-        font-size: 25px;
-        padding-right: 75px;
+    /*************** Les plus populaires : 810px ***************/
+    .images {
+        width: 150px;
+        height: auto;
     }
 
-    /******************* Les filtres *******************/
-    .filters {
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-
-    .filters h3 {
-        font-size: 35px;
-    }
-
-    .filters button {
-        font-size: 25px;
-        margin-right: 30px;
-    }
-
-    .fa-heart, .fa-dog {
-        padding: 23px;
-    }
-
-    .fa-money-bill-wave {
-        font-size: 30px;
-    }
-
-    .fa-child {
-        font-size: 30px;
-    }
-
-    /*************** Les plus populaires ***************/
-    .txt h3 {
-        font-size: 20px;
-    }
-
-   /************** Hébergement à Marseille *************/
-    .contenu-hotel h3 {
-        font-size: 20px;
-    }
-
-    /*************** Activités à Marseille **************/
-    .places-marseille h3 {
-        font-size: 20px;
+    .hotels-popular {
+        padding: 20px 10px;
     }
 
 }
-
-
-@media screen and (max-width: 800px) {
-    
-    .img-logo {
-        margin-bottom: 0;
-    }
-}
-
 
 @media screen and (max-width: 783px) {
 
@@ -463,35 +287,79 @@
 
 @media screen and (max-width: 681px) {
 
-    body {
-        width: 100%;
+    a.list-top {
+        padding-left: 30px 10px;
     }
 
-    form {
-        width: 70%;
-    }
-}
-
-@media screen and (min-width: 681px) and (max-width:620px) {
-
-    body {
-        width: 100%;
+    .info {
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
 
-@media screen and (min-width: 400px) and (max-width:620px) {
+@media screen and (max-width: 400px) {
 
-    body {
-        width: 100%;
+    /******************** Formulaire : 400px *******************/
+    .form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .country {
+        width: 200px;
+    }
+
+    /***************** Le footer : 400px **********************/
+    .footer {
+        padding-bottom: 0;
+    }
+
+    .footer-nav {
+        padding-right: 0;
     }
 }
 
-@media screen and (min-width: 280px) and (max-width:400px) {
+@media screen and (max-width: 330px) {
 
-    body {
-        width: 100%;
+    /****************** Présentation du site : 330px *******************/
+    .presentation-site {
+        padding-left: 15px;
+        padding-right: 15px;
     }
+
+    /******************** Formulaire : 330px *******************/
+    .form {
+        padding: 10px 10px 30px 10px;
+    }
+
+    .country {
+        width: 170px;
+    } 
 }
 
+@media screen and (max-width: 300px) {
+
+    /********************** Le menu : 300px ***********************/
+    a.list-top {
+        padding-left: 10px 10px;
+        font-size: 14px;
+    }
+
+    /******************** Formulaire : 300px *******************/
+    .country {
+        width: 130px;
+    } 
+
+    /***************** Les plus populaires : 300px ******************/
+    .txt {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .images {
+        width: 100px;
+        height: auto;
+    }
+}
 
 

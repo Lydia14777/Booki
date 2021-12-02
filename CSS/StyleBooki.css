@@ -157,7 +157,7 @@ form button {
     font-size: 17px;
     border:#f2f2f2 none 2px;
     border-radius: 15px 0 0 15px;
-    padding: 18px 15px 17px 20px;
+    padding: 18px;
 }
 
 /*Texte Marseille,France*/
@@ -178,7 +178,7 @@ form button {
     font-size: 16px;
     border:#0065fc none;
     border-radius: 0px 15px 15px 0px;
-    padding: 16px 17px 16px 17px;
+    padding: 17px;
 }
 
 /*Icône/bouton mobile de recherche désactivée*/
@@ -231,19 +231,9 @@ form button {
     border: none; 
     border-radius: 50%;
     font-size: 15px;
-    padding: 12px;
+    padding: 15px 12px 15px 12px;
     margin: 0 15px 0 -9px;
-}
-
-/*Icône d'un billet*/
-.fa-money-bill-wave {
-    width: 50%;
-    height: 50%;
-}
-
-/*Icône d'un enfant*/
-.fa-child {
-    width: 16px;
+    width: 24px;
 }
 
 /*Titres des filtres en noirs*/
