@@ -329,7 +329,7 @@
 @media screen and (max-width: 821px) {
     
     body {
-        width: 820px;
+        width: 100%;
     }
 }
 
@@ -469,7 +469,28 @@
 @media screen and (max-width: 681px) {
 
     body {
-        width: 730px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 681px) and (max-width:620px) {
+
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:600px) {
+
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width:400px) {
+
+    body {
+        width: 100%;
     }
 }
 
