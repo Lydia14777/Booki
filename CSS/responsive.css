@@ -183,7 +183,7 @@
         flex-wrap: wrap;
     }
 
-    .city-activities .img-tall,.img-small {
+    .city-activities .img-tall {
         width: 100%;
     }
 
@@ -194,7 +194,7 @@
         margin-bottom: 35px;
     }
 
-    .img-port, .img-calanques { 
+    .img-rezise { 
         min-height: 100px;
         max-height: 200px;
     }

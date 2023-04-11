@@ -210,7 +210,7 @@ form button {
 }
 
 /*Tous les boutons*/
-.eco, .family, .romantic, .animals {
+.eco, .family, .romantic, .fire {
     background-color: white;
     border: #f2f2f2 solid 2px;
     color: #0065fc;
@@ -225,8 +225,17 @@ form button {
     padding: 0 20px 0 0;
 }
 
+.person-icon {
+    width: 12px;
+    background-color: #deebff;
+    border: none; 
+    border-radius: 50%;
+    padding: 13px 17px 13px 17px;
+    margin: 0 15px 0 -9px;
+}
+
 /*Icônes des filtres*/
-.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
+.fa-money-bill-wave, .fa-heart, .fa-fire-alt {
     background-color: #deebff;
     border: none; 
     border-radius: 50%;
@@ -391,7 +400,7 @@ form button {
 /*Icône d'une courbe*/
 .fas.fa-chart-line { 
     font-size: 18px;
-    color:black;
+    color:#0065fc;
 }
 
 /*Englobe toutes les div favorite*/
@@ -483,28 +492,17 @@ form button {
     background-color: #f2f2f2;
 }
 
-/*Les div des 2 grandes et 4 petites images de la section Activités à Marseille*/
-.img-tall, .img-small {
+/*Les div des 4 grandes images de la section Activités à Marseille*/
+.img-tall {
     width: 24%;
     cursor: pointer;
-}
-
-/*Les div des 2 grandes images de la section Activités à Marseille*/
-.img-tall {
     display: flex;
     flex-direction: column;
     border:solid 1px white;
     border-radius: 25%;
 }
 
-/*Les div des 4 petites images de la section Activités à Marseille*/
-.img-small {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-/*Les 2 grandes images de la section Activités à Marseille*/
+/*Les 4 grandes images de la section Activités à Marseille*/
 .img-tall img {
     flex: 2;
 }
@@ -517,33 +515,11 @@ form button {
 }
 
 /*La première grande image de la section Activités à Marseille*/
-.img-port { 
+.img-rezise { 
     border:solid 1px white;
     border-radius: 25%;
     width: 100%;
     min-height: 500px;
-}
-
-/*La deuxième grande image de la section Activités à Marseille*/
-.img-calanques { 
-    border:solid 1px white;
-    border-radius: 25%;
-    width: 100%;
-    min-height: 500px;
-}
-
-/*Les 4 petites images de la section Activités à Marseille*/
-.img-visit { 
-    width: 100%;
-    min-height: 200px;
-    max-height: 210px;
-}
-
-/*Les 4 petites images de la section Activités à Marseille*/
-.next { 
-    width: 100%;
-    min-height: 205px;
-    max-height: 210px;
 }
 
 /******************************************************** Le footer ***********************************************************/
