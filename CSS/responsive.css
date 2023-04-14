@@ -3,6 +3,10 @@
     .hotel {
         width: 43%;
     }
+
+    .img-tall img {
+        height: 240px;
+    }
 }
 
 
