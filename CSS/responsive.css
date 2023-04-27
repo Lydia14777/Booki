@@ -1,0 +1,46 @@
+@media screen and (max-width: 1400px) {
+
+    footer {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width: 1335px) {
+
+    .hotels-popular {
+        flex: 1;
+    }
+
+    .box-marseille {
+        gap: 20px;
+    }
+
+    .hotel {
+        width: calc(31.9% - 15px);
+    }
+    
+    .space-stars {
+        padding: 30px 0 0 0;
+    }
+
+    .txt h3 {
+        margin: 5px 0 5px 0;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+
+    .space-stars {
+        padding: 20px 0 0 0;
+    }
+
+    .txt h3, .contenu-hotel h3 {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .contenu-hotel p, .txt p {
+        font-size: 12px;
+    }
+}

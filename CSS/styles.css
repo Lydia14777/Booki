@@ -5,6 +5,7 @@
 .main-container {
     width: 100%;
     max-width: 1440px;
+    min-width: 1024px;
     margin: auto;
     padding: 0 50px;
     box-sizing: border-box;
@@ -266,7 +267,7 @@ form button {
     align-items: center;
 }
 
-/*******************************  La section hébergement à Marseille et Les plus populaires **********************************/
+/******************************* Main La section hébergement à Marseille et Les plus populaires **********************************/
 
 /*Les deux parties hotels-marseille (Hébergements à Marseille) et hotels-popular (Les plus populaires)*/
 .bloc-accommodations { 
